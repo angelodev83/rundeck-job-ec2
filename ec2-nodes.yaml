@@ -1,0 +1,14 @@
+---
+- nodes:
+  - name: my-ec2-instance
+    hostname: ec2-xx-xx-xx-xx.compute-1.amazonaws.com
+    description: My EC2 Instance
+    osArch: amd64
+    osFamily: unix
+    osName: Linux
+    osVersion: 4.14.232-173.360.amzn2.x86_64
+    tags:
+      - key: environment
+        value: production
+      - key: project
+        value: my-project
